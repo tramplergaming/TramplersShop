@@ -1,2 +1,4 @@
-#pragma once
-void CreateStorage();
+#ifndef CREATESTORAGE_H
+#define CREATESTORAGE_H
+void CreateStorage(); 
+#endif

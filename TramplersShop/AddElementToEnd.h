@@ -1,4 +1,5 @@
-#pragma once
+#ifndef ADDELEMENTTOEND_H
+#define ADDELEMENTTOEND_H
 #include <string>
 //Размеры
 int size = 10;
@@ -15,3 +16,4 @@ std::string* nameReceiptArr = new std::string[receiptSize];
 int* countReceiptArr = new int[receiptSize];
 double* priceReceiptArr = new double[receiptSize];
 void AddElementToEnd();
+#endif
